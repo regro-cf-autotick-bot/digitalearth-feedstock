@@ -41,6 +41,7 @@ Current release info
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
 | [![Conda Recipe](https://img.shields.io/badge/recipe-digitalearth-green.svg)](https://anaconda.org/conda-forge/digitalearth) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/digitalearth.svg)](https://anaconda.org/conda-forge/digitalearth) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/digitalearth.svg)](https://anaconda.org/conda-forge/digitalearth) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/digitalearth.svg)](https://anaconda.org/conda-forge/digitalearth) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-digitalearth--3d-green.svg)](https://anaconda.org/conda-forge/digitalearth-3d) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/digitalearth-3d.svg)](https://anaconda.org/conda-forge/digitalearth-3d) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/digitalearth-3d.svg)](https://anaconda.org/conda-forge/digitalearth-3d) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/digitalearth-3d.svg)](https://anaconda.org/conda-forge/digitalearth-3d) |
 
 Installing digitalearth
 =======================
@@ -52,16 +53,16 @@ conda config --add channels conda-forge
 conda config --set channel_priority strict
 ```
 
-Once the `conda-forge` channel has been enabled, `digitalearth` can be installed with `conda`:
+Once the `conda-forge` channel has been enabled, `digitalearth, digitalearth-3d` can be installed with `conda`:
 
 ```
-conda install digitalearth
+conda install digitalearth digitalearth-3d
 ```
 
 or with `mamba`:
 
 ```
-mamba install digitalearth
+mamba install digitalearth digitalearth-3d
 ```
 
 It is possible to list all of the versions of `digitalearth` available on your platform with `conda`:
