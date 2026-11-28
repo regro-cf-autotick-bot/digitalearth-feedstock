@@ -1,5 +1,5 @@
 {% set name = "digitalearth" %}
-{% set version = "0.15.2" %}
+{% set version = "0.18.0" %}
 {% set python_min = "3.11" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/serapeum-org/Digital-Earth/archive/{{ version }}.tar.gz
-  sha256: a56ecca8e138f6c17a439ac979bb2b855c9c012e9da80d14883e2df8ea398830
+  sha256: 080f726fade82814adf5eb23b89078a7b3c506218d5dea269e74ec2dd6b5f9b3
 
 build:
   number: 0
